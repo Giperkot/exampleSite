@@ -1,0 +1,36 @@
+
+
+.clearfix {
+  width: 320px;
+  margin: 0 auto;
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+.container() {
+  width: 320px;
+  margin: 0 auto;
+
+  @madia @tablet-widths {
+    width: 640px;
+  }
+
+  @media @desktop-widths {
+    width: 960px;
+  }
+}
+
+.no-outline {
+  outline: none;
+  background: transparent;
+
+  &::before {
+    display: none;
+  }
+
+}
