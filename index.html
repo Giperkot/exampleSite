@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Главная страница "Барбершопа"</title>
+        <link type="text/css" rel="css/style.css"/>
+    </head>
+    <body>
+        <header class="page-header">
+            <div class="page-header__logo">
+
+            </div>
+            <nav class="main-nav">
+                <div class="main-nav__wrapper">
+                    <div class="main-nav__items">
+
+                    </div>
+                    <div class="main-nav__user-items">
+
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+        <section class="stats">
+            <header class="stats__header">
+                <b class="stats__slogan"></b>
+                <p class="stats__intro"></p>
+                <small class="stats__legend"></small>
+            </header>
+            <table class="stats__items">
+                <tr>
+                    <td class="stats__value">1 500<sup>*</sup></td>
+                    <td class="stats__field">рублей<br> вложений</td>
+                </tr>
+
+            </table>
+
+            <small class="stats__legend"></small>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__wrapper slider">
+                <h2 class="advantages__title visually-hidden">Наши преимущества</h2>
+                <input class="slider__input" type="radio" name="advantages" id="advantages-input-1" checked>
+                <input class="slider__input" type="radio" name="advantages" id="advantages-input-2">
+                <input class="slider__input" type="radio" name="advantages" id="advantages-input-3">
+                <ul class="advantages__items">
+                    <li class="advantages__item advantages__item--fast slider__item">
+                        <h3 class="advantages__item-title">Быстро</h3>
+                        <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной
+                    </li>
+                    ...
+                </ul>
+                <div class="advantages__toggles slider__toggles">
+                    <label class="slider__toggle" for="advantages-input-1">1</label>
+                    <label class="slider__toggle" for="advantages-input-2">2</label>
+                    <label class="slider__toggle" for="advantages-input-3">3</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="news__wrapper">
+                <h2 class="news__title">Новости и акции</h2>
+                <ul class="news__items">
+                    <li class="news__item">
+                        <time class="news__date" datetime="2015-09-29"><b>29</b> сент</time>
+                        <p>Нам наконец-то завезли Егермейстер! Теперь вы можете пропустить стаканчик во время стрижки.</p>
+                    </li>
+                    ...
+                </ul>
+                <a class="news__to-all btn" href="">Показать все</a>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="reviews__wrapper slider">
+                <h2 class="reviews__title">Отзывы о нас</h2>
+                <a class="reviews__write btn" href="">Оставить свой</a>
+                <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+                ...
+                <div class="reviews__items">
+                    <blockquote class="reviews__item slider__item">
+                        <div class="reviews__auhor-foto">
+                            <img src="img/pic-travis.jpg" width="50" height="33" alt="Фото Трэвиса Баркера">
+                        </div>
+                        <cite class="reviews__auhor-name">Трэвис Баркер</cite>
+                        <p>Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+                    </blockquote>
+                    ...
+                    <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+                    <button class="reviews__next" type="button">Следующий отзыв</button>
+                </div>
+                <div class="reviews__toggles slider__toggles">
+
+                    <footer class="page-footer">
+                        <div class="page-footer__wrapper">
+                            <p class="page-footer__contacts">
+                                <b>Барбершоп «Бородинский»</b><br>
+                                г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+                                <a href="tel:+79194984223"><span class="page-footer__contacts-hidden">Тел.:</span> +7 (919) 498-42-23</a>
+                            </p>
+                            <p class="page-footer__social">
+                                <span class="social-links">
+                                <a class="social-link social-link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+                                <a class="social-link social-link--fb" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+                                <a class="social-link social-link--in" href="https://www.instagram.com/htmlacademy">Мы в Инстаграм</a>
+                                </span>
+                            </p>
+                            <p class="page-footer__copyright">
+                                Разработано:
+                                <a class="btn page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Aca</a>
+                            </p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+
+    </body>
+
+</html>
