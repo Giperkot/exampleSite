@@ -1,4 +1,9 @@
 
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .main-nav__items,
 .main-nav__user-items {
   margin: 0;
@@ -12,4 +17,39 @@
 
 .main-nav__user-items {
   min-height: 55px;
+}
+
+@media @tablet-widths {
+  .main-nav {
+    width: auto;
+    min-height: 70px;
+    margin: 0;
+  }
+
+  .main-nav__wrapper {
+    .container();
+    .clearfix();
+  }
+
+  .main-nav__items {
+    float: left;
+    width: 570px;
+    min-height: 70px;
+  }
+  .main-nav__user-items {
+    float: right;
+    width: 60px;
+    min-height: 70px;
+  }
+
+}
+
+@media @desktop-widths {
+  .main-nav__items {
+    width: 780px;
+  }
+
+  .main-nav__user-items {
+    width: 160px;
+  }
 }

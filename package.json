@@ -1,0 +1,28 @@
+{
+  "name": "exampleSite",
+  "version": "0.0.1",
+  "description": "Learning site for study.",
+  "main": "Gruntfile.js",
+  "author": "StvolovIS",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Giperkot/exampleSite.git"
+  },
+  "devDependencies": {
+    "grunt-contrib-less": "^1.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Giperkot/exampleSite/issues"
+  },
+  "homepage": "https://github.com/Giperkot/exampleSite#readme",
+  "dependencies": {
+    "grunt-contrib-less": "^1.4.0"
+  },
+  "scripts": {
+    "test": "aslkfjaslfj"
+  },
+  "keywords": [
+    "lsaflskjf"
+  ],
+  "license": "ISC"
+}

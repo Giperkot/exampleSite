@@ -3,4 +3,4 @@ exampleKey
 *.pub
 *.bat
 css/
-
+node_modules/
