@@ -9,7 +9,8 @@
     "url": "git+ssh://git@github.com/Giperkot/exampleSite.git"
   },
   "devDependencies": {
-    "grunt-contrib-less": "^1.4.0"
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/Giperkot/exampleSite/issues"
